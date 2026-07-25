@@ -1,0 +1,20 @@
+{
+  "name": "novinarski-kanal-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Помощни скриптове за автоматизирания новинарски канал (Make.com + Claude + Deepgram)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node scripts/server.js",
+    "test": "node --test \"scripts/test/*.test.js\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "@deepgram/sdk": "^3.9.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  }
+}
